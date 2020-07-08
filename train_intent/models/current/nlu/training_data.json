@@ -1,0 +1,5370 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "si"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "not today"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "uh no"
+      },
+      {
+        "intent": "deny",
+        "text": "noope"
+      },
+      {
+        "intent": "deny",
+        "text": "do you have something else"
+      },
+      {
+        "intent": "deny",
+        "text": "no this does not work for me"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Sitka",
+            "entity": "location"
+          }
+        ],
+        "text": "Sitka"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Juneau",
+            "entity": "location"
+          }
+        ],
+        "text": "Juneau"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Virginia",
+            "entity": "location"
+          }
+        ],
+        "text": "Virginia"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Cusseta",
+            "entity": "location"
+          }
+        ],
+        "text": "Cusseta"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chicago",
+            "entity": "location"
+          }
+        ],
+        "text": "Chicago"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Tucson",
+            "entity": "location"
+          }
+        ],
+        "text": "Tucson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Columbus",
+            "entity": "location"
+          }
+        ],
+        "text": "Columbus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Valdez",
+            "entity": "location"
+          }
+        ],
+        "text": "Valdez"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Preston",
+            "entity": "location"
+          }
+        ],
+        "text": "Preston"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Huntsville",
+            "entity": "location"
+          }
+        ],
+        "text": "Huntsville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Boulder",
+            "entity": "location"
+          }
+        ],
+        "text": "Boulder"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "California",
+            "entity": "location"
+          }
+        ],
+        "text": "California"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tulsa",
+            "entity": "location"
+          }
+        ],
+        "text": "Tulsa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Colorado",
+            "entity": "location"
+          }
+        ],
+        "text": "Colorado"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Goodyear",
+            "entity": "location"
+          }
+        ],
+        "text": "Goodyear"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Albuquerque",
+            "entity": "location"
+          }
+        ],
+        "text": "Albuquerque"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Scottsdale",
+            "entity": "location"
+          }
+        ],
+        "text": "Scottsdale"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Hibbing",
+            "entity": "location"
+          }
+        ],
+        "text": "Hibbing"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Norman",
+            "entity": "location"
+          }
+        ],
+        "text": "Norman"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "San",
+            "entity": "location"
+          }
+        ],
+        "text": "San"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Peoria",
+            "entity": "location"
+          }
+        ],
+        "text": "Peoria"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "New",
+            "entity": "location"
+          }
+        ],
+        "text": "New"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Corpus",
+            "entity": "location"
+          }
+        ],
+        "text": "Corpus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Montgomery",
+            "entity": "location"
+          }
+        ],
+        "text": "Montgomery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Wichita",
+            "entity": "location"
+          }
+        ],
+        "text": "Wichita"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Aurora",
+            "entity": "location"
+          }
+        ],
+        "text": "Aurora"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Denver",
+            "entity": "location"
+          }
+        ],
+        "text": "Denver"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sierra",
+            "entity": "location"
+          }
+        ],
+        "text": "Sierra"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Georgetown",
+            "entity": "location"
+          }
+        ],
+        "text": "Georgetown"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Birmingham",
+            "entity": "location"
+          }
+        ],
+        "text": "Birmingham"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Fayetteville",
+            "entity": "location"
+          }
+        ],
+        "text": "Fayetteville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Carson",
+            "entity": "location"
+          }
+        ],
+        "text": "Carson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Raleigh",
+            "entity": "location"
+          }
+        ],
+        "text": "Raleigh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Bakersfield",
+            "entity": "location"
+          }
+        ],
+        "text": "Bakersfield"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mobile",
+            "entity": "location"
+          }
+        ],
+        "text": "Mobile"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Detroit",
+            "entity": "location"
+          }
+        ],
+        "text": "Detroit"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bunnell",
+            "entity": "location"
+          }
+        ],
+        "text": "Bunnell"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Chattanooga",
+            "entity": "location"
+          }
+        ],
+        "text": "Chattanooga"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mesa",
+            "entity": "location"
+          }
+        ],
+        "text": "Mesa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Fernley",
+            "entity": "location"
+          }
+        ],
+        "text": "Fernley"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Marana",
+            "entity": "location"
+          }
+        ],
+        "text": "Marana"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Yuma",
+            "entity": "location"
+          }
+        ],
+        "text": "Yuma"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Little",
+            "entity": "location"
+          }
+        ],
+        "text": "Little"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Athens",
+            "entity": "location"
+          }
+        ],
+        "text": "Athens"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Hartsville",
+            "entity": "location"
+          }
+        ],
+        "text": "Hartsville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Port",
+            "entity": "location"
+          }
+        ],
+        "text": "Port"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tampa",
+            "entity": "location"
+          }
+        ],
+        "text": "Tampa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Fresno",
+            "entity": "location"
+          }
+        ],
+        "text": "Fresno"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Unalaska",
+            "entity": "location"
+          }
+        ],
+        "text": "Unalaska"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Eloy",
+            "entity": "location"
+          }
+        ],
+        "text": "Eloy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Salt",
+            "entity": "location"
+          }
+        ],
+        "text": "Salt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Jackson",
+            "entity": "location"
+          }
+        ],
+        "text": "Jackson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Fort",
+            "entity": "location"
+          }
+        ],
+        "text": "Fort"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Casa",
+            "entity": "location"
+          }
+        ],
+        "text": "Casa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Charleston",
+            "entity": "location"
+          }
+        ],
+        "text": "Charleston"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Henderson",
+            "entity": "location"
+          }
+        ],
+        "text": "Henderson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Durham",
+            "entity": "location"
+          }
+        ],
+        "text": "Durham"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Abilene",
+            "entity": "location"
+          }
+        ],
+        "text": "Abilene"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Palmdale",
+            "entity": "location"
+          }
+        ],
+        "text": "Palmdale"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Babbitt",
+            "entity": "location"
+          }
+        ],
+        "text": "Babbitt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Surprise",
+            "entity": "location"
+          }
+        ],
+        "text": "Surprise"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Cape",
+            "entity": "location"
+          }
+        ],
+        "text": "Cape"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Shreveport",
+            "entity": "location"
+          }
+        ],
+        "text": "Shreveport"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Rio",
+            "entity": "location"
+          }
+        ],
+        "text": "Rio"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Savannah",
+            "entity": "location"
+          }
+        ],
+        "text": "Savannah"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Reno",
+            "entity": "location"
+          }
+        ],
+        "text": "Reno"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Orlando",
+            "entity": "location"
+          }
+        ],
+        "text": "Orlando"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "North",
+            "entity": "location"
+          }
+        ],
+        "text": "North"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Tallahassee",
+            "entity": "location"
+          }
+        ],
+        "text": "Tallahassee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amarillo",
+            "entity": "location"
+          }
+        ],
+        "text": "Amarillo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "St",
+            "entity": "location"
+          }
+        ],
+        "text": "St"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Knoxville",
+            "entity": "location"
+          }
+        ],
+        "text": "Knoxville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Sacramento",
+            "entity": "location"
+          }
+        ],
+        "text": "Sacramento"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Clarksville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Los Angeles",
+            "entity": "location"
+          }
+        ],
+        "text": "Los Angeles"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "New York"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Las Vegas",
+            "entity": "location"
+          }
+        ],
+        "text": "Las Vegas"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "San Diego",
+            "entity": "location"
+          }
+        ],
+        "text": "San Diego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "San Antonio",
+            "entity": "location"
+          }
+        ],
+        "text": "San Antonio"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "El Paso",
+            "entity": "location"
+          }
+        ],
+        "text": "El Paso"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Kansas location",
+            "entity": "location"
+          }
+        ],
+        "text": "Kansas location"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "San Francisco",
+            "entity": "location"
+          }
+        ],
+        "text": "San Francisco"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Santa Barbara",
+            "entity": "location"
+          }
+        ],
+        "text": "Santa Barbara"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "home health agency"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hospital"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "nursing home"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 20,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "a home health agency"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 10,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "a hospital"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 14,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "find me a nearby hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "hospitals",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "show me hospitals"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "10119",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby hospital my zip code is 10119"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i need a home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "find me a nearby home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "show me home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "value": "10119",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby home health agency my zip code is 10119"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "find me a nearby nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "show me nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 45,
+            "end": 50,
+            "value": "10119",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby nursing home my zip code is 10119"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "77494",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a hospital my zip code is 77494"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "30277",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 46,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "my zip code is 30277 and i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "86602",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "my zip code is 86602 and i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "47516",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 52,
+            "value": "home health agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "my zip code is 47516 and i need a home health agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "77474",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a nursing home at 77474"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "77474",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a hospital at 77474"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "77474",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a home health agency at 77474"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Amarillo",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 42,
+            "value": "nursing home",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i am in Amarillo and i need a nursing home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "New York",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "hospital",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i am in New York and i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Las Vegas",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 48,
+            "value": "home healt agency",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "i am in Las Vegas and i need a home healt agency"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "Katy",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a nursing home in Katy"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "Waco",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a hospital in Waco"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a home health agency in Clarksville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Knoxville",
+            "entity": "location"
+          }
+        ],
+        "text": "show me nursing home in Knoxville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Durham",
+            "entity": "location"
+          }
+        ],
+        "text": "show me hospital in Durham"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "Detroit",
+            "entity": "location"
+          }
+        ],
+        "text": "show me home health agency in Detroit"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "Reno",
+            "entity": "location"
+          }
+        ],
+        "text": "find me a nearby home health agency in Reno"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Tampa",
+            "entity": "location"
+          },
+          {
+            "start": 26,
+            "end": 39,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Tampa i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "San Diego",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in San Diego i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Nashville",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 47,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Nashville i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Sacramento",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Sacramento i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Springfield",
+            "entity": "location"
+          },
+          {
+            "start": 32,
+            "end": 40,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Springfield i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Atlanta",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 45,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Atlanta i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Chicago",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 41,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Chicago i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Santa Cruz",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 39,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Santa Cruz i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Boston",
+            "entity": "location"
+          },
+          {
+            "start": 27,
+            "end": 44,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hi i am in Boston i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Tampa",
+            "entity": "location"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Tampa i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "San Diego",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in San Diego i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Nashville",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 50,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Nashville i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "Sacramento",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Sacramento i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Springfield",
+            "entity": "location"
+          },
+          {
+            "start": 35,
+            "end": 43,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Springfield i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Atlanta",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 48,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Atlanta i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Chicago",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Chicago i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "Santa Cruz",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Santa Cruz i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Boston",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 47,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "hello i am in Boston i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Tampa",
+            "entity": "location"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Tampa i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "San Diego",
+            "entity": "location"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in San Diego i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Nashville",
+            "entity": "location"
+          },
+          {
+            "start": 40,
+            "end": 57,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Nashville i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Sacramento",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 54,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Sacramento i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Springfield",
+            "entity": "location"
+          },
+          {
+            "start": 42,
+            "end": 50,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Springfield i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Atlanta",
+            "entity": "location"
+          },
+          {
+            "start": 38,
+            "end": 55,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Atlanta i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Chicago",
+            "entity": "location"
+          },
+          {
+            "start": 38,
+            "end": 51,
+            "value": "b27b-2uc7",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Chicago i need a nursing  home"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Santa Cruz",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 49,
+            "value": "rbry-mqwu",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Santa Cruz i need a hospital"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Boston",
+            "entity": "location"
+          },
+          {
+            "start": 37,
+            "end": 54,
+            "value": "9wzi-peqs",
+            "entity": "facility_type"
+          }
+        ],
+        "text": "Good morning i am in Boston i need a home health agenc"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "Katy",
+            "entity": "location"
+          }
+        ],
+        "text": "Hello again i need a nursing home in Katy"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "Waco",
+            "entity": "location"
+          }
+        ],
+        "text": "Hello again i need a hospital in Waco"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 43,
+            "end": 54,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Hello again i need a home health agency in Clarksville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "Katy",
+            "entity": "location"
+          }
+        ],
+        "text": "Good morning i need a nursing home in Katy"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "hospital",
+            "entity": "facility_type"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "Waco",
+            "entity": "location"
+          }
+        ],
+        "text": "Good morning i need a hospital in Waco"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 40,
+            "value": "home health agency",
+            "entity": "facility_type"
+          },
+          {
+            "start": 44,
+            "end": 55,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Good morning i need a home health agency in Clarksville"
+      },
+      {
+        "intent": "search_provider",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "nursing home",
+            "entity": "facility_type"
+          },
+          {
+            "start": 34,
+            "end": 47,
+            "value": "Oklahoma City",
+            "entity": "location"
+          }
+        ],
+        "text": "Can you tell me a nursing home in Oklahoma City ?"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you alright"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are things?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you today"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how have you been"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How was your day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's it hanging?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's life been treating you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How's life treating you friend?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How've you been?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Is everything ok?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what about your day"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's good"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's new?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up man"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "What's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Do you have a great day?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "nah, I'm good - how are you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are yuo"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how you doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "are you ok"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you today?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are u?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "okay hi how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u>"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "and you"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are you men?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's up?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you????"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how r u ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "h r u ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how's it going?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hello, how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hw r u?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what's up"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "wassup>"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hi Sara! How are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you ?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you'"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are you doing today?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how you doing?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How are You?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "what doing"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "how are xou"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "¿Qué pasa?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "hi sara, how are you?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "Hows it going"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "come stai?"
+      },
+      {
+        "intent": "ask_howdoing",
+        "text": "How you doing?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How is the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather like?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How is the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the weather at your place?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Do you have good weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it raining?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's it like out there?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it hot or cold?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Beautiful day, isn't it?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather forecast?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it quite breezy outside?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Will I require my raincoat today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the weather for tomorrow?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Nice day out today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the temperature today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Can we expect any thunderstorms?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Will the skies be clear today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Are we in for a scorcher?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Looks like a beautiful day hey?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Will we build a snowman today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it humid out there today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Are there any meteorological changes that I need to be aware of?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "whats the weather like tomorrow?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "hows the weather in bot world"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how is the weather in berlin?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather like where you are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is the sun out where you are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is it sunny"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is the sun out where zou are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what\"s the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "whats the weather in berlin?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather in berlin"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "excellent - is it hot in Berlin?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How is the weather today?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how is the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather like?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather ?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the whether today"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather in zurich?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what about the weather in Lüneburg"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather today"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the wather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather like where I am right now?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weatehr"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "temperature?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather like in LA"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather like where you are?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "hows the waether"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is it hot ?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "is it hot outside ?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how is the weather ?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "it is cold"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "how is the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "well, if you wish: what about the weather"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "weatger"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather like over there?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "Is it raining"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the temperature"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How is weather today"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What is the weather in newyork?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "the weather today"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather like?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "whats the temperature in delhi?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "whats the temperature"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "hows the weather today in berlin?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather like"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "can you share your boss with me?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to get to know your owner"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which designed you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which generated you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know the company which invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "May I ask who invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me the company who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about your creators"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about your founders"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company brought you into existence?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "which company invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your boss?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your builder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who designed you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who do you work for?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who fabricated you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who generated you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to build you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to generate you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who had the idea to make you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is behind all this?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the legal owner of you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your boss tell me"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your boss?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your programmer?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who modeled you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who owns you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who produced you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who thought to make you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who went through the trouble of setting you up?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "and who built u?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who build yoi"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "where were you made?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "why were you made?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who invent you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who developed"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who developed you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made u"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "you are made by who?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who built u?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made u?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your author"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who made you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who built you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your parent?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who are your parents"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who your author are?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who are your author?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "you are working for which company?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your employer?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "what is the name of the smart engineer who creted you ?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "what is the name of the smart engineer who creted you ?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your father ?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who create you ?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who create you ?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who's builder"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your mom"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your daddy"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Do you know who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the name of your builder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the name of your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the person that invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Do you know who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you built by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you created by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "By whom were you built?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who developed you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you created by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created and built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the person responsible for building you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is it that built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is responsible for making you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who developed and created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the person that made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who put you together?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the person that created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the person who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the person that built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the person who put you together?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the one who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who was the one that built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Do you know who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the person who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Tell me who built you."
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is the builder of you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you built by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Tell me the name of your creator."
+      },
+      {
+        "intent": "ask_builder",
+        "text": "What is the name of your builder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Name the person who built you."
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you created by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who designed you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Tell me the name of the person who built you."
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you made by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Tell me the name of the individual who created you."
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Can I ask the name of the people who designed you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "What person built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who were you built by?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who is your creator"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "restaurants"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "can i be shown a gluten free restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "i want a french restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "i'm looking for a Chinese restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I need a new restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "help me find restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I'm gonna need help finding a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Hey help me find a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "How can you help me find a restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Where is the restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Show me how to find a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I need to find this restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Help me with finding this restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Hey, can you help me with locating this restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find me a place to eat"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you recommend a restaurant open right now"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "What's the closest restaurant open near me"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I am hungry, find me some place to go"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Suggest me a good restaurant around"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Show me the closest open restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "What's a good place to eat nearby"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Recommend me a restaurant around here."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Pick a restaurant for me, please"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Help me find a restaurant"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Would you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Would you find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find a restaurant for me?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find me a restaurant to eat at?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find a restaurant for me to eat at."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find me a restaurant where I can eat."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find a restaurant for me where I can eat."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I need a restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Where should I eat?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Where should I go for dinner?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Any good restaurants nearby?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Can you find me a burger joint?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "I'm looking for a Spanish restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "What restaurant would you recommend for dinner?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Hi, can you give me the nearest fast food place?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Find me a fast food restaurant."
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Do you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Is there any restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "IS there any near by restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Could you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "can you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Would you find any restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Do you seek me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Have you seen me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "Will you find me a restaurant?"
+      },
+      {
+        "intent": "ask_restaurant",
+        "text": "will you see any restaurant for me?"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "i hate you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "so dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are a moron"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are an idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "so fucking dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "are you brain dead?"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "how can you be such an idiot?"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "a baby knows more than you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "i hate your dumb face"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are fucking stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "bloody dunce"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You're an idiot."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are a fool."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You're foolish."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are dumb."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You have no sense."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are unintelligent."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You're a dolt."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You're a dunce."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You have no brains."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You have no intelligence."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are dumb."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are an idiot."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You lack intelligence."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are unknowing."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You are shortsighted."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Your intelligence is laughable."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You know nothing."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You lack understanding."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Your mindset is naive."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "You brain is dull."
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're an idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "God you're a moron"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're so dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are idiotic"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're the most moronic person I know"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "I can't believe how dumb you are"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are unintelligent"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're not smart"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are so ignorant"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you're dumb"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "asshole"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "bitch"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck u"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "deal with my ass, you bitch"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you son of a bitch"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "shut up asshole"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you asshole"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "are u dump?"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "are u dump?"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you machine learning bot"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck u"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "what fuck"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fucking stupid"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "you are fucking stupid guy！"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "go fuck yourself"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck rasa"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fuck you!"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "Fuck Off"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "FUCK"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "fucking work"
+      },
+      {
+        "intent": "handleinsult",
+        "text": "ok shut up"
+      },
+      {
+        "intent": "telljoke",
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Say something funny."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Give me a joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Give me a funny joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "What's a good joke?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Do you have any jokes?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Do you know any jokes?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "I need a good joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell me the best joke you know."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell me something funny."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell me something funny."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Share a joke with me!"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell me something humorous!"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Will you tell me a joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Can you tell me a joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Would you tell me a joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Please tell me a joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Could you tell me a joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Would you share a joke with me."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Could you please share a joke with me."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Make me laugh."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell me something funny."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Entertain me with a joke."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Tell me something that you think will make me laugh."
+      },
+      {
+        "intent": "telljoke",
+        "text": "I want to hear something funny."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Give me some comic relief."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Can you tell a joke?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Know any jokes?"
+      },
+      {
+        "intent": "telljoke",
+        "text": "Come up with a joke you think I'll find funny."
+      },
+      {
+        "intent": "telljoke",
+        "text": "Let's hear a joke from you."
+      },
+      {
+        "intent": "telljoke",
+        "text": "say a joke that's funny"
+      },
+      {
+        "intent": "telljoke",
+        "text": "make me laugh with a joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "tell me something funny, like a joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "say a joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "tell me a short joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "tell me a story joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "say a funny joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "say a joke that's so bad it's funny"
+      },
+      {
+        "intent": "telljoke",
+        "text": "make me laugh with a bad joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "give me a good joke"
+      },
+      {
+        "intent": "telljoke",
+        "text": "you can say a jok"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where do you live?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where do you live"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "So where are you from"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are you?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you born?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What state were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What country were you born in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you at before you were here?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Do you know where you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where's your home town?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "what country are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "are you from around here?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where are your parents from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where did you spend your youth?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "where did you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where were you born?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you consider home?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city do you claim to for your birth?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What citizenship do you lay claim to?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your heritage?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your birthplace?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you grow up?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "You were conceived in what city?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your root?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your origin?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "From where did you come?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where did you originate?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are your roots?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are your origins?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What area are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What's the name of the place you came from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What is your original city?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where might you be from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you come from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where do you live?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What city are you in?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "What country are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Around where are you from?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Where are you located?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "Are you from around here?"
+      },
+      {
+        "intent": "ask_wherefrom",
+        "text": "You live around here?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the time in Sydney?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "whats the time now"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the time ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is time in US ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is time is US ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is time is USA ?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what time it is"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you give me the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you tell the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Give me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Tell me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Could you tell me what time is it?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Excuse me, what time is it?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Could you tell me the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Could you tell me the time, please?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Would you tell me what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Time, please!"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Pardon me, but do you know the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What's the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you know what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What's the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time is it right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Do you have the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you tell me what time it is?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Hi, I need the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "I need to know what time it is."
+      },
+      {
+        "intent": "ask_time",
+        "text": "Tell me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What's the time right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "Can you tell me the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What might the time be?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the hour and minute right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time have we got?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time is it right now?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What time do we have?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "What is the exact time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "do you know the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what is the current time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "what time do you have?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "do you have the time?"
+      },
+      {
+        "intent": "ask_time",
+        "text": "tell me the current time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "tell me the time."
+      },
+      {
+        "intent": "ask_time",
+        "text": "tell me what time you have."
+      },
+      {
+        "intent": "ask_time",
+        "text": "tell me the time it is."
+      },
+      {
+        "intent": "ask_time",
+        "text": "what time is it?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what's your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "when is your birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how many years old are you?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "do you know how old you are?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your exact age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "can you tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your birthdate?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old will you be on your next birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "When do you celebrate your day of birth?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old were you on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many candles were on your last birthday cake?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Do you have friends the same age as you, if so, how old are they?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Tell me your day, month and year of birth."
+      },
+      {
+        "intent": "ask_howold",
+        "text": "Whats your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "and you are how many years old?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "whats your birth year?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what age were you when you celebrated your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old were you when you celebrated your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "tell me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how about your age"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old were you on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what age are you"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old will you be this year?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you been around?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What was your age on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What will be your age on your next birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you lived?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How many years have you been alive?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How long have you occupied the earth?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "What is your count of years being alive so far?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what is your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "in what year were you born?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "what number represents your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "tell me how old you are?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "give me your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "tell me your age number?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old were you on your last birthday?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "can you tell me exactly how old you are?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "can you tell me what number represents your age?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how many years old are you?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old are you"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "How old are you?"
+      },
+      {
+        "intent": "ask_howold",
+        "text": "how old are u"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Okay who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "WHo am I"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tell me who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Do you know who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Can you tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How do I discover who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How can I determine who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Do you know who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Can you tell me who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How do I discover who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How can I determine who am I?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "who are I ?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "who may i ?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Shall i know who am i?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Tell me who I am."
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "How do I identify myself?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "Who could I be?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "what's my identity?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "tell me what my identity is?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "can you tell me what I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "can you tell me what my identity is?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "can you tell me who I am?"
+      },
+      {
+        "intent": "ask_whoami",
+        "text": "who am i"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Which languages do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What are the languages you can speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which languages can you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which languages are you fluent?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you converse in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know how to use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Which languages are you familiar with?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages are you familiar with?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In what languages are you fluent enough?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can speak ?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages are you comfortable speaking at?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages are you good at speaking?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you are well versed ?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can be comfortable speaking?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you prefer more speaking at?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can handle well?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you know any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Can you communicate in any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you communicate in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "tell me some languages you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what else do you know besides English?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "are you bilingual?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "are you multilingual?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what foreign languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what foreign languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "how many languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "how many languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages can you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many different languages are you fluent in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages do you have knowledge of?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What are all of the different languages you can speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Are you familiar with more than one language?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Can you speak more than one language?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you know other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages are you familiar with?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "can you speak in italian?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "do you speak german?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you speak german?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "what is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "May i know my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do I call myself?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tell me my name."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Explain my name to me."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What could be my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name do I go by?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What name should I recognize for myself?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "what's my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "can you tell me my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do I have a name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do I have a name? What is it?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What was I named?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Say my name."
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do you know my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do people call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Can you tell me my name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What else do people call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "I have a name, what is it?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Tell me my name"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "I'd like to know my name"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Inform me what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Please let me know what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Can you tell me what I am called?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "I'd like to know what my name is"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is the name I was given?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What does everyone call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What am I called?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What did my parents name me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do my colleagues call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What would be the name on my tombstone?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "Do you know what my name is?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my first name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What is my full name?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What do people call me?"
+      },
+      {
+        "intent": "ask_whatismyname",
+        "text": "What exactly is my name?"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "location",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "b27b-2uc7",
+        "synonyms": [
+          "nursing  home",
+          "nursing home",
+          "nursing homes"
+        ]
+      },
+      {
+        "value": "rbry-mqwu",
+        "synonyms": [
+          "hospital",
+          "hospitals"
+        ]
+      },
+      {
+        "value": "9wzi-peqs",
+        "synonyms": [
+          "home health agenc",
+          "home health agency",
+          "home health agencies"
+        ]
+      }
+    ]
+  }
+}
