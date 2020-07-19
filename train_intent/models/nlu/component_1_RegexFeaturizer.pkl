@@ -1,6 +1,0 @@
-[
-    {
-        "name": "location",
-        "pattern": "[0-9]{5}"
-    }
-]

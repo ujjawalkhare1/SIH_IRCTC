@@ -1,0 +1,5 @@
+{
+"{org}":"./intent/stationName.txt", 
+"{dest}":"./intent/stationName.txt",
+"{date}":"./intent/date.txt"
+}

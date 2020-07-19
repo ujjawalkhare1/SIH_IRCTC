@@ -1,7 +1,7 @@
-language: "en"
-
-#pipeline: "spacy_sklearn"
 # language: "en"
+
+# #pipeline: "spacy_sklearn"
+language: "en"
 
 pipeline:
 - name: "nlp_spacy"
@@ -11,7 +11,7 @@ pipeline:
 - name: "ner_crf"
 - name: "ner_synonyms"
 - name: "intent_classifier_sklearn"
-#- epochs: "11"
+# - epochs: 11
 
 # language: "fr"  # your two-letter language code
 
@@ -23,6 +23,44 @@ pipeline:
 #   - name: "LexicalSyntacticFeaturizer"
 #   - name: "CountVectorsFeaturizer"
 #   - name: "CountVectorsFeaturizer"
+#     analyzer: "char_wb"
+#     min_ngram: 1
+#     max_ngram: 4
+#   - name: DIETClassifier
+#     epochs: 100
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+
+
+# language: "en"
+
+# pipeline:
+#   - name: "sentiment.SentimentAnalyzer"
+#   - name: ConveRTTokenizer
+#   - name: ConveRTFeaturizer
+#   - name: RegexFeaturizer
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: "char_wb"
+#     min_ngram: 1
+#     max_ngram: 4
+#   - name: DIETClassifier
+#     epochs: 100
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+
+
+# language: "fr"  # your two-letter language code
+
+# pipeline:
+#   - name: WhitespaceTokenizer
+#   - name: RegexFeaturizer
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
 #     analyzer: "char_wb"
 #     min_ngram: 1
 #     max_ngram: 4
