@@ -143,7 +143,7 @@ python-socketio==3.1.2
 python-telegram-bot==11.1.0
 pytz==2018.9
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.1
 questionary==1.5.2
 rasa==1.10.6
 rasa-core==0.13.8
