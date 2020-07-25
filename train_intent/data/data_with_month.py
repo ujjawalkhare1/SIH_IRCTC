@@ -10,8 +10,17 @@ dates = ['','1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th','11th',
 
 months = ['jan','feb', 'march', 'april','may', 'june', 'july', 'august', 'september', 'october', 'november', 'december','january','february']
 filepath = './backup.txt'
+
+stationData = './stationData.txt'
+with open(stationData,'r',encoding='utf-8') as stationFile:
+	stations = stationFile.read().strip().split('\n')
+
+for station in stations:
+	arr.append(station)
+
 with open(filepath,'r',encoding = 'utf-8') as infile:
     sents = infile.read().strip().split('\n')
+
 
 length = len(arr)
 fp = open("./train_data1.json",'w')

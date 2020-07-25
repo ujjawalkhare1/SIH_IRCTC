@@ -429,6 +429,10 @@ can I get all the information about trains from {org} to {dest} on {date}
 can I get all the information about train options from {org} to {dest} on {date}
 can I get all the information about trains originating from {org} to {dest} on {date}
 want train ticket to travel originating from {orig} to {dest}
+I want to go from {org} to {dest}
+I want to go from {org} to {dest}
+I want to go from {org} to {dest} on {date}
+I want to from {org} to {dest} on {date}
 want train reservation to travel originating from {orig} to {dest}
 want tickets to travel originating from {orig} to {dest}
 want train tickets  to travel originating from {orig} to {dest}
@@ -453,3 +457,9 @@ want to book train tickets originating from {orig} to {dest} on {date}
 want to travel originating from {orig} to {dest} on {date}
 want to travel on {date} originating from {orig} to {dest}
 want to travel to {dest} originating from {orig} on {date}
+book train from {orig} to {dest}
+book train from {orig} to {dest} on {date}
+I want to book a ticket to {orig} on {dest} on {date}
+I want to book a ticket to {orig} on {dest}
+show me train from {orig} to {dest}
+show me train from {orig} to {dest} on {date}

@@ -5,9 +5,9 @@ from rasa_nlu.model import Metadata, Interpreter
 import pickle
 
 app = Flask(__name__)
-model_directory = './models/default/model_20200714-013325'
+model_directory = '../train_intent/models/default/model_20200725-160314'
 interpreter = Interpreter.load(model_directory)
-#model = pickle.load(open('./models/default/model_20200714-013325/crf_model.pkl'))
+#model = pickle.load(open('./models/default/model_20200725-160314/crf_model.pkl'))
 
 @app.route('/', methods=['POST','GET'])
 def predict():
