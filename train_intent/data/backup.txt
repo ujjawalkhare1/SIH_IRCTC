@@ -460,3 +460,4 @@ I would like to book train tickets originating from {orig} to {dest} on {date}
 I would like to travel originating from {orig} to {dest} on {date}
 I would like to travel on {date} originating from {orig} to {dest}
 I would like to travel to {dest} originating from {orig} on {date}
+To leave to {dest} from {orig} on {date}

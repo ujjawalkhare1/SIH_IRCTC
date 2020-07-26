@@ -463,3 +463,14 @@ I want to book a ticket to {orig} on {dest} on {date}
 I want to book a ticket to {orig} on {dest}
 show me train from {orig} to {dest}
 show me train from {orig} to {dest} on {date}
+I have to get {dest} from {orig} on {date}
+I have to get {dest} from {orig}
+I want to ticket from {orig} to {dest}
+I want to ticket from {orig} to {dest} on {date}
+I want to know trains between {orig} and {dest} on {date}
+I want to know trains between {orig} and {dest}
+I want to travel between {orig} and {dest}
+I want to travel between {orig} and {dest} on {date}
+I want to book train tickets between {orig} and {dest}
+I want to travel tickets of train {orig} and {dest}
+I want to travel tickets of train {orig} and {dest} on {date}

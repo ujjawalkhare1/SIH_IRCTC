@@ -12,7 +12,7 @@ months = ['jan','feb', 'march', 'april','may', 'june', 'july', 'august', 'septem
 filepath = './backup.txt'
 
 stationData = './stationData.txt'
-with open(stationData,'r',encoding='utf-8') as stationFile:
+with open(stationData, 'r' ,encoding = 'utf-8') as stationFile:
 	stations = stationFile.read().strip().split('\n')
 
 for station in stations:
@@ -42,7 +42,14 @@ for i in range(iteration):
 		date = dates[random.randrange(1, 32, 3)]
 		month = months[random.randrange(0, 15, 3)]
 		year = random.randrange(2010, 2030, 3)
-		finalDate = str(date) + " " + str(month) + " "  + str(year)
+
+		dateType1 = str(date) + " " + str(month) + " "  + str(year)
+		dateType2 = str(month) + " " + str(date)
+		dateType3 = str(date) + " of " + str(month)
+		dateType4 = str(random.randrange(1, 32, 3)) + " " + str(month)
+
+		dateList = [dateType1, dateType2, dateType3, dateType4]
+		finalDate = dateList[random.randrange(0,4,3)]
 
 		# Date data for training
 		isDatePresent = 'false'

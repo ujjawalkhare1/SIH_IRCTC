@@ -5,7 +5,7 @@ from rasa_nlu.model import Metadata, Interpreter
 import pickle
 
 app = Flask(__name__)
-model_directory = '../train_intent/models/default/model_20200725-160314'
+model_directory = '../train_intent/models/default/model_20200726-122941'
 interpreter = Interpreter.load(model_directory)
 #model = pickle.load(open('./models/default/model_20200725-160314/crf_model.pkl'))
 
@@ -21,4 +21,4 @@ def predict():
 	return jsonify(res)
 
 if __name__ == '__main__':
-	app.run(debug = True,host='0.0.0.0')
+	app.run(debug = True,host='0.0.0.0',port=5002)
