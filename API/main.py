@@ -5,7 +5,7 @@ from rasa_nlu.model import Metadata, Interpreter
 import pickle
 
 app = Flask(__name__)
-model_directory = '../train_intent/models/default/model_20200726-122941'
+model_directory = '../EnquiryIntent/models/default/model_20200802-124906'
 interpreter = Interpreter.load(model_directory)
 #model = pickle.load(open('./models/default/model_20200725-160314/crf_model.pkl'))
 
