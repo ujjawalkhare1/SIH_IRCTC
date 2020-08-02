@@ -7,7 +7,7 @@ pipeline:
 - name: "intent_featurizer_count_vectors"
 - name: "intent_classifier_tensorflow_embedding"
   batch_size: 64
-  epochs: 10
+  epochs: 30
 - name: "nlp_spacy"
 - name: "tokenizer_spacy"
 - name: "intent_entity_featurizer_regex"
