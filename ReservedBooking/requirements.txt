@@ -72,7 +72,7 @@ incremental==17.5.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 jmespath==0.9.4
-joblib==0.14.1
+joblib==1.2.0
 jsonpickle==1.0
 jsonschema==2.6.0
 kafka-python==1.4.7
